@@ -1,12 +1,60 @@
+body {
+  background-color: #fefae0;
+  padding: 0;
+  margin: 0;
+}
+
+#cabecalho {
+  background-color: #e76f51;
+  /* align-items: center; */
+  height: 18vh;
+  max-height: 150px;
+  /* text-align: center; */
+  padding-left: 30px;
+  padding-top: 60px;
+  box-sizing: border-box;
+  font-family: Georgia, sans-serif;
+  display: block;
+}
+
 .nome-habilidades {
-    font-family: Georgia, sans-serif;
-    line-height: 1.3;
+  font-family: Georgia, sans-serif;
+  line-height: 1.3;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 #descricao {
-    font-family: Georgia, sans-serif;
+  font-family: Georgia, sans-serif;
+  position: absolute;
+  top: 30%;
+  right: 8%;
+  padding-left: 22%;
+  text-align: justify;
+  text-indent: 2em;
+  box-sizing: border-box;
 }
 
-body {
-    background-color: #d9e1d4;
+/* div {
+  border: 2px solid black;
+} */
+
+#minha-foto {
+  float: left;
+  height: 230px;
+  padding: 10px;
+  /* background-color: rgb(170, 197, 155); */
+  /* border-style: groove; */
+  border-radius: 15px;
+}
+
+#minhas-habilidades{
+  padding-left: 50px;
+  padding-left: 210px;
+  padding-top: 10px;
+}
+
+.image-container {
+  height: 250px;
+  position: relative;
 }
